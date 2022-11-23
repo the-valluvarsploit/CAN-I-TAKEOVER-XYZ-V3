@@ -101,7 +101,7 @@ Uptimerobot                           | Vulnerable     | `page not found`       
 UserVoice                       | Vulnerable     | `This UserVoice subdomain is currently available!`                      |
 Vercel| Not Vulnerable| The deployment could not be found on Vercel.` |
 Webflow                           | Edge Case     | `The page you are looking for doesn't exist or has been moved.` | |[forum webflow](https://forum.webflow.com/t/hosting-a-subdomain-on-webflow/59201)
-Weebly                           | Vulnerable     | `Error - Page Not Found` ||
+Weebly                           | Vulnerable     | `Error - Page Not Found` |[Issue #1](https://github.com/the-valluvarsploit/CAN-I-TAKEOVER-XYZ-V3/issues/1)|
 Wix                           | Edge Case     | `Looks Like This Domain Isn't Connected To A Website Yet!` | 
 Wordpress                       | Vulnerable     | `Do you want to register *.wordpress.com?`                              | |
 Worksites | Vulnerable | `Hello! Sorry, but the website you&rsquo;re looking for doesn&rsquo;t exist.` |  | 
