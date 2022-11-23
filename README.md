@@ -37,7 +37,7 @@ You can submit new services here: https://github.com/the-valluvarsploit/CAN-I-TA
 
 Engine                                        | Status         | Fingerprint                                                             | Discussion                                                    | Documentation
 --------------------------------------------- | -------------- | ----------------------------------------------------------------------- | ------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------
-Acquia | Not vulnerable | `Web Site Not Found` |=
+Acquia | Not vulnerable | `Web Site Not Found` |
 Agile CRM | Vulnerable | `Sorry, this page is no longer available.` |
 Airee.ru                             | Vulnerable     | |  |
 Anima | Vulnerable | `If this is your website and you've just created it, try refreshing in a minute` |  | [Anima Documentation](https://docs.animaapp.com/v1/launchpad/08-custom-domain.html)
@@ -69,7 +69,7 @@ Help Juice                     | Vulnerable     | `We could not find what you're
 Help Scout                     | Vulnerable     | `No settings were found for this company:`                              |                                                               | [HelpScout Docs](https://docs.helpscout.net/article/42-setup-custom-domain)
 Heroku                             | Edge case     | `No such app`                                                           | 
 HubSpot                            | Not vulnerable | `This page isn’t available`
-Instapage | Not vulnerable | | [Issue #73](https://github.com/EdOverflow/can-i-take-over-xyz/issues/73) | |
+Instapage | Not vulnerable | |  | |
 Intercom                          | Vulnerable     | `Uh oh. That page doesn't exist.`                                         |  | [Help center](https://www.intercom.com/help/)
 JetBrains                       | Vulnerable     | `is not a registered InCloud YouTrack`                                  | | [YouTrack InCloud Help Page](https://www.jetbrains.com/help/youtrack/incloud/Domain-Settings.html)
 Key CDN                             | Not vulnerable     | |  |
@@ -81,7 +81,7 @@ Microsoft Azure           | Vulnerable     |  |  |
 Netlify | Edge Case | `Not Found - Request ID:`  |  |
 Ngrok | Vulnerable | `Tunnel *.ngrok.io not found` |  | [Ngrok Documentation](https://ngrok.com/docs#http-custom-domains)
 Pantheon                           | Vulnerable     | `404 error unknown site!`                                                 | | [Pantheon-Sub-takeover](https://medium.com/@hussain_0x3c/hostile-subdomain-takeover-using-pantheon-ebf4ab813111)
-Pingdom | Vulnerable | `Sorry, couldn't find the status page` | [ | [Support Page](https://help.pingdom.com/hc/en-us/articles/205386171-Public-Status-Page)
+Pingdom | Vulnerable | `Sorry, couldn't find the status page` |  | [Support Page](https://help.pingdom.com/hc/en-us/articles/205386171-Public-Status-Page)
 Readme.io | Vulnerable | `Project doesnt exist... yet!` | 
 Sendgrid                         | Not vulnerable |                                                                         |
 Shopify                           | Edge Case     | `Sorry, this shop is currently unavailable.`                            || [Medium Article](https://medium.com/@thebuckhacker/how-to-do-55-000-subdomain-takeover-in-a-blink-of-an-eye-a94954c3fc75) 
@@ -89,7 +89,7 @@ Short.io | Vulnerable| `Link does not exist` |
 SmartJobBoard | Vulnerable | `This job board website is either expired or its domain name is invalid.` |  | [Support Page](https://help.smartjobboard.com/en/articles/1269655-connecting-a-custom-domain-name)
 Smartling| Edge Case|`Domain is not configured`  | 
 Squarespace                   | Not vulnerable |                                                                         |
-Statuspage | Not Vulnerable | `Status page pushed a DNS verification in order to prevent malicious takeovers what they mentioned in` [This Doc](https://support.atlassian.com/statuspage/docs/configure-your-dns/) | [PR #105](https://github.com/EdOverflow/can-i-take-over-xyz/pull/105) and [PR #171](https://github.com/EdOverflow/can-i-take-over-xyz/pull/171) | [Statuspage documentation](https://help.statuspage.io/knowledge_base/topics/domain-ownership) |          
+Statuspage | Not Vulnerable | `Status page pushed a DNS verification in order to prevent malicious takeovers what they mentioned in` [This Doc](https://support.atlassian.com/statuspage/docs/configure-your-dns/) | | [Statuspage documentation](https://help.statuspage.io/knowledge_base/topics/domain-ownership) |          
 Strikingly                           | Vulnerable     | `page not found`                                                 | | [Strikingly-Sub-takeover](https://medium.com/@sherif0x00/takeover-subdomains-pointing-to-strikingly-5e67df80cdfd)
 Surge.sh                         | Vulnerable     | `project not found`                                                     || [Surge Documentation](https://surge.sh/help/adding-a-custom-domain)
 SurveySparrow | Vulnerable | 'Ouch! Account not found' |  |[Custom domain]( https://help.surveysparrow.com/custom-domain)
