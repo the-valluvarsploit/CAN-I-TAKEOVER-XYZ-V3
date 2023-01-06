@@ -86,6 +86,7 @@ Netlify | Edge Case | `Not Found - Request ID:`  |  |
 Ngrok | Vulnerable | `Tunnel *.ngrok.io not found` |  | [Ngrok Documentation](https://ngrok.com/docs#http-custom-domains)
 Pantheon                           | Vulnerable     | `404 error unknown site!`                                                 | | [Pantheon-Sub-takeover](https://medium.com/@hussain_0x3c/hostile-subdomain-takeover-using-pantheon-ebf4ab813111)
 Pingdom | Vulnerable | `Sorry, couldn't find the status page` |  | [Support Page](https://help.pingdom.com/hc/en-us/articles/205386171-Public-Status-Page)
+Qwilr | Vulnerable |  | [Blog](https://0xprial.com/subdomain-hijacking-of-any-qwilrs-customer/)
 Readme.io | Vulnerable | `Project doesnt exist... yet!` | 
 Readthedocs | Vulnerable | `The host 'XYZ' is unknown to Read the Docs` |
 Sendgrid                         | Not vulnerable |                                                                         |
