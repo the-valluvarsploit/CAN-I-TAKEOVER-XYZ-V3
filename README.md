@@ -76,7 +76,8 @@ Key CDN                             | Not vulnerable     | |  |
 Kinsta                           | Vulnerable     | `No Site For Domain`                                                 | | [kinsta-add-domain](https://kinsta.com/knowledgebase/add-domain/)
 Landingi  | Edge case     | `It looks like you’re lost...` | 
 LaunchRock                         | Vulnerable     | `It looks like you may have taken a wrong turn somewhere. Don't worry...it happens to all of us.`                                                 | | 
-Mashery                           | Edge Case | `Unrecognized domain`                                                   | [HackerOne #275714](https://hackerone.com/reports/275714), 
+Mashery                           | Edge Case | `Unrecognized domain`                                                   | [HackerOne #275714](https://hackerone.com/reports/275714)
+Mailchimp  | Not Vulnerable |`We can't find that page It looks like you're trying to reach a page that was built by Mailchimp but is no longer active.` |
 Microsoft Azure           | Vulnerable     |  |  |
 Netlify | Edge Case | `Not Found - Request ID:`  |  |
 Ngrok | Vulnerable | `Tunnel *.ngrok.io not found` |  | [Ngrok Documentation](https://ngrok.com/docs#http-custom-domains)
