@@ -39,7 +39,7 @@ Engine                                        | Status         | Fingerprint    
 --------------------------------------------- | -------------- | ----------------------------------------------------------------------- | ------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------
 Acquia | Not vulnerable | `Web Site Not Found` |
 Agile CRM | Vulnerable | `Sorry, this page is no longer available.` |
-Airee.ru                             | Vulnerable     | |  |
+Airee.ru                             | Vulnerable     | | `Ошибка 402. Сервис Айри.рф не оплачен`  |
 Anima | Vulnerable | `If this is your website and you've just created it, try refreshing in a minute` |  | [Anima Documentation](https://docs.animaapp.com/v1/launchpad/08-custom-domain.html)
 Akamai                                        | Not vulnerable | |  |
 AWS/S3                             | Vulnerable     | `The specified bucket does not exist`                                   | 
@@ -48,6 +48,7 @@ AWS/Elastic Beanstalk                               | Vulnerable         | `404 
 Bitbucket                       | Vulnerable     | `Repository not found`                                                  |
 Campaign Monitor         | Vulnerable     |               `Trying to access your account?`                                                          |                                                              | [Support Page](https://help.campaignmonitor.com/custom-domain-names)
 Cargo Collective         | Vulnerable     | `404 Not Found` |                                                                                                                       | [Cargo Support Page](https://support.2.cargocollective.com/Using-a-Third-Party-Domain)
+Canny | Vulnerable | `Company Not Found` `There is no such company. Did you enter the right URL?` | |
 Cloudfront                     | Not vulnerable      | ViewerCertificateException            |  | [Domain Security on Amazon CloudFront](https://aws.amazon.com/blogs/networking-and-content-delivery/continually-enhancing-domain-security-on-amazon-cloudfront/)
 Desk                                 | Not vulnerable     | `Please try again or try Desk.com free for 14 days.`                    | 
 Digital Ocean | Vulnerable | Domain uses DO name servers with no records in DO. |   |   |
@@ -59,6 +60,7 @@ Fly.io                             | Vulnerable     | `404 Not Found`           
 Freshdesk                       | Not vulnerable |`We couldn't find servicedesk.victim.tld Maybe this is still fresh! You can claim it now at http://www.freshservice.com/signup`| | [Freshdesk Support Page](https://support.freshdesk.com/support/solutions/articles/37590-using-a-vanity-support-url-and-pointing-the-cname)
 Frontify | Edge case | `404 - Page Not Found` `Oops… looks like you got lost` |  | 
 Gemfury | Vulnerable | `404: This page could not be found.` |  | [Article](https://khaledibnalwalid.wordpress.com/2020/06/25/gemfury-subdomain-takeover/)
+Getresponse | Vulnerable | `With GetResponse Landing Pages, lead generation has never been easier` | 
 Ghost                               | Vulnerable     | `The thing you were looking for is no longer here, or never was`        | 
 Github                             | Edge case     | `There isn't a GitHub Pages site here.`                                 | 
 Gitlab                             | Not vulnerable |                                                                         | [HackerOne #312118](https://hackerone.com/reports/312118)
@@ -67,6 +69,7 @@ Google Sites                           | Not vulnerable     | `The requested URL
 HatenaBlog | vulnerable | `404 Blog is not found`                                                                         |
 Help Juice                     | Vulnerable     | `We could not find what you're looking for.`                            |                                                               | [Help Juice Support Page](https://help.helpjuice.com/en_US/using-your-custom-domain/how-to-set-up-a-custom-domain)
 Help Scout                     | Vulnerable     | `No settings were found for this company:`                              |                                                               | [HelpScout Docs](https://docs.helpscout.net/article/42-setup-custom-domain)
+Helprace | Vulnerable |  `Alias not configured!` `Admin of this Helprace account needs to set up domain alias`  | 
 Heroku                             | Edge case     | `No such app`                                                           | 
 HubSpot                            | Not vulnerable | `This page isn’t available`
 Instapage | Not vulnerable | |  | |
@@ -84,11 +87,13 @@ Ngrok | Vulnerable | `Tunnel *.ngrok.io not found` |  | [Ngrok Documentation](ht
 Pantheon                           | Vulnerable     | `404 error unknown site!`                                                 | | [Pantheon-Sub-takeover](https://medium.com/@hussain_0x3c/hostile-subdomain-takeover-using-pantheon-ebf4ab813111)
 Pingdom | Vulnerable | `Sorry, couldn't find the status page` |  | [Support Page](https://help.pingdom.com/hc/en-us/articles/205386171-Public-Status-Page)
 Readme.io | Vulnerable | `Project doesnt exist... yet!` | 
+Readthedocs | Vulnerable | `The host 'XYZ' is unknown to Read the Docs` |
 Sendgrid                         | Not vulnerable |                                                                         |
 Shopify                           | Edge Case     | `Sorry, this shop is currently unavailable.`                            || [Medium Article](https://medium.com/@thebuckhacker/how-to-do-55-000-subdomain-takeover-in-a-blink-of-an-eye-a94954c3fc75) 
 Short.io | Vulnerable| `Link does not exist` | 
 SmartJobBoard | Vulnerable | `This job board website is either expired or its domain name is invalid.` |  | [Support Page](https://help.smartjobboard.com/en/articles/1269655-connecting-a-custom-domain-name)
 Smartling| Edge Case|`Domain is not configured`  | 
+Smugsmug | Vulnerable | | 
 Squarespace                   | Not vulnerable |                                                                         |
 Statuspage | Not Vulnerable | `Status page pushed a DNS verification in order to prevent malicious takeovers what they mentioned in` [This Doc](https://support.atlassian.com/statuspage/docs/configure-your-dns/) | | [Statuspage documentation](https://help.statuspage.io/knowledge_base/topics/domain-ownership) |          
 Strikingly                           | Vulnerable     | `page not found`                                                 | | [Strikingly-Sub-takeover](https://medium.com/@sherif0x00/takeover-subdomains-pointing-to-strikingly-5e67df80cdfd)
